@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    box-shadow: 3px 1px 0px rgba(0, 0, 0, 1);
+}
+.header-img img{
+    width: 44%;
+}
+.header-navigation nav{
+    display: flex;
+    gap: 30px;
+}
+.header-navigation li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-navigation li a{
+    text-decoration: none;
+    color: black;
+}
+.header-signin-button a button{
+    padding: 10px 10px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
